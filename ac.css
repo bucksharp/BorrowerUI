@@ -1,3 +1,4 @@
+/* Rebrand Styles */
 html {
   height: 100%;
 }
@@ -60,7 +61,7 @@ a {
 }
 @media all and (min-width: 768px) {
   .navbar {
-    min-height: 100px;
+    height: 100px;
   }
 }
 .navbar,
@@ -79,11 +80,14 @@ a {
   }
 }
 .navbar-default .navbar-nav > li > a {
-  color: #fff;
+  color: #373942;
+}
+.navbar-default .navbar-nav > li > a i {
+  color: #bbc2c5;
 }
 @media all and (min-width: 768px) {
   .navbar-default .navbar-nav > li > a {
-    padding: 40px 26px 40px 26px;
+    padding: 39px 26px 37px 26px;
     transition: background-color 0.5s ease;
   }
   .navbar-default .navbar-nav > li > a:hover {
@@ -91,7 +95,7 @@ a {
     color: #fff;
   }
   .navbar-default .navbar-nav > li > a:hover i {
-    color: #2781bc;
+    color: white;
   }
 }
 .navbar-default .navbar-nav > li:last-child {
@@ -102,7 +106,8 @@ a {
 }
 @media all and (min-width: 768px) {
   .navbar-brand img {
-    padding-left: 15px;
+    padding-left: 25px;
+    margin-top: 14px;
   }
 }
 h4.bank-name-error {
@@ -135,7 +140,8 @@ h4.bank-name-error span {
 }
 .navbar {
   padding: 0;
-  background-color: #34495e;
+  background-color: white;
+  border-bottom: 5px solid #bbc2c5;
 }
 @media all and (min-width: 768px) {
   .navbar {

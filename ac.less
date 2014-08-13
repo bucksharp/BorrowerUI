@@ -15,11 +15,15 @@
 @deepslate: #373942;
 @lightslate:#7f8c8d;
 @brightblue:#3f9bd7;
-@salmon: #ff6f6e;
-@salmondark: #d85e5d;
 @type: #444;
 @block-bg: #fbfbfb;
 @brightbluehover:darken(@brightblue, 10%);
+
+/* Rebrand Styles */
+
+@salmon: #ff6f6e;
+@salmondark: #d85e5d;
+@accent: #bbc2c5;
 
 html {
 	height:100%;
@@ -79,7 +83,7 @@ a {
 .navbar {
 	min-height: 78px;
 	@media all and (min-width:768px) {
-		min-height:100px;
+		height:100px;
 	}
 }
 
@@ -99,13 +103,16 @@ a {
 }
 
 .navbar-default .navbar-nav>li>a {
-	color:#fff;
+	color:@deepslate;
+	i {
+		color:@accent;
+	}
 	@media all and (min-width: @screen-sm) {
-		padding:40px 26px 40px 26px;
+		padding:39px 26px 37px 26px;
 		transition: background-color 0.5s ease;
 		&:hover {
 			i {
-				color:@brightbluehover;
+				color:white;
 			}
       		background-color: @brightblue;
       		color:#fff;
@@ -121,7 +128,8 @@ a {
 	padding:0;
 	img {
 		@media all and (min-width: @screen-sm) {
-			padding-left: 15px;
+			padding-left: 25px;
+			margin-top:14px;
 		}
 	}
 }
@@ -153,7 +161,8 @@ h4.bank-name-error {
 
 .navbar {
 	padding:0;
-	background-color: #34495e;
+	background-color: white;
+	border-bottom:5px solid @accent;
 	@media all and (min-width:@screen-sm) {
 		padding:0;
 	}
