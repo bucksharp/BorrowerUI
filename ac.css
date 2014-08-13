@@ -104,6 +104,10 @@ a {
 .navbar-brand {
   padding: 0;
 }
+.navbar-brand img {
+  padding-left: 10px;
+  margin-top: 10px;
+}
 @media all and (min-width: 768px) {
   .navbar-brand img {
     padding-left: 25px;
@@ -1785,7 +1789,7 @@ label.switch-light.switch-candy {
   box-shadow: 0px 5px 0px #d85e5d;
   background-color: #ff6f6e;
   border-color: #ff6f6e;
-  transition: all 0.8s ease;
+  transition: background-color 0.8s ease;
 }
 .btn-hybrid:hover {
   background-color: #d85e5d;
@@ -1810,6 +1814,7 @@ label.switch-light.switch-candy {
   }
 }
 .btn-secondary {
+  margin-top: 20px;
   background-color: #efefef;
   border-color: #efefef;
   transition: all 0.8s ease;
@@ -1820,6 +1825,11 @@ label.switch-light.switch-candy {
   background-color: #e5e5e5;
   border-color: #e5e5e5;
   color: #222;
+}
+@media all and (min-width: 992px) {
+  .btn-secondary {
+    margin-top: 0;
+  }
 }
 .btn-find-bank {
   display: block;

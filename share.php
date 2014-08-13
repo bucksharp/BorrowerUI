@@ -38,7 +38,7 @@
 		
 		<div class="col-md-12">
 			
-			<h3><i class="fa fa-random"></i> Share Accounts</h3>
+			<h3>Share Accounts</h3>
 		<p class="process-type">We noticed that you have additional accounts available to share from your bank. If you prefer you can share these accounts now.</p>
 
 		</div>

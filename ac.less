@@ -128,6 +128,8 @@ a {
 .navbar-brand {
 	padding:0;
 	img {
+		padding-left:10px;
+		margin-top: 10px;
 		@media all and (min-width: @screen-sm) {
 			padding-left: 25px;
 			margin-top:14px;
@@ -1794,7 +1796,7 @@ label.switch-light.switch-candy {
   	box-shadow: 0px 5px 0px @salmondark;
    	background-color: @salmon;
     border-color: @salmon;
-    transition: all 0.8s ease;
+    transition: background-color 0.8s ease;
     &:hover {
       	background-color: @salmondark;
       	border-color:@salmondark;
@@ -1818,6 +1820,7 @@ label.switch-light.switch-candy {
 }
 
 .btn-secondary {
+	margin-top:20px;
 	background-color: #efefef;
     border-color: #efefef;
     transition: all 0.8s ease;
@@ -1827,6 +1830,9 @@ label.switch-light.switch-candy {
       	background-color: #e5e5e5;
       	border-color:#e5e5e5;
       	color:#222;
+    }
+    @media all and (min-width:@screen-md) {
+		margin-top:0;
     }
 }
 

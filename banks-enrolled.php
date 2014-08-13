@@ -44,8 +44,8 @@
 			  <table class="table table-ac">
 				<thead>
 				<tr>
-					<th>Bank Name</th>
-					<th colspan="2"></th>
+					<th colspan="2">Bank Name</th>
+					<th></th>
 
 				</tr>
 				</thead>
