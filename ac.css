@@ -1609,15 +1609,15 @@ th.xpadding-left-10 {
 }
 .ac-alert-success {
   color: #fff;
-  background-color: #2dc36c;
+  background-color: #bbc2c5;
   border-radius: 0;
   border: none;
   text-align: center;
-  margin-top: 14px;
+  margin-top: 11px;
   font-size: 14px;
 }
 .ac-alert-success i {
-  color: #27ae60;
+  color: white;
 }
 @media all and (min-width: 992px) {
   .ac-alert-success {
@@ -1625,6 +1625,7 @@ th.xpadding-left-10 {
     font-size: 16px;
     margin-bottom: 0;
     margin-top: 0;
+    padding-top: 12px;
   }
 }
 .ac-alert-warning {
@@ -1850,17 +1851,17 @@ label.switch-light.switch-candy {
   display: block;
   width: 100%;
   color: #fff;
-  background-color: #3f9bd7;
-  border-color: #3f9bd7;
+  background-color: #ff6f6e;
+  border-color: #ff6f6e;
   transition: background-color 0.8s ease;
   height: 65px;
   border-radius: 0px;
   padding-top: 22px;
-  box-shadow: 0px 5px 0px #3187C0;
+  box-shadow: 0px 5px 0px #d85e5d;
 }
 .btn-authorize:hover {
-  background-color: #3187C0;
-  border-color: #3187C0;
+  background-color: #d85e5d;
+  border-color: #d85e5d;
   color: #fff;
 }
 .panel-body-signin {
