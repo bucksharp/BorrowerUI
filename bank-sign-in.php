@@ -47,19 +47,17 @@
 						<div class="col-md-6 col-md-offset-3">
 							<h3 class="panel-title panel-title-authorize"><i class="fa fa-university"></i> Your Bank Sign in</h3>
 							<p class="tiny-caps">Bank Name</p>
-						     <h5 class="fi-name">American Bank of Texas (Seguin, Highland Lakes, Austin, San Antonio, Fredericksburg, Temple)</h5>
-				 
+						     <h5 class="fi-name">Bank of America</h5>
 			   			  <div class="form-group">
-
 			   				<!-- Email Address -->
-			   				<label for="exampleInputEmail1" class="tiny-caps">Username</label>
-			   			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Username" autofocus>
+			   				<label for="exampleInputEmail1">Customer Name or Saver ID</label>
+			   			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="" autofocus>
 			   			  </div> <!-- close form-group -->
 						  
 			   			  <div class="form-group">
 							  <!-- Password -->
-			   			    <label for="exampleInputPassword1" class="tiny-caps">Password</label>
-			   			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			   			    <label for="exampleInputPassword1">Access Code (Generate yours instantly at CapitalOne360.com)</label>
+			   			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
 						</div> <!-- close form-group -->
 
 

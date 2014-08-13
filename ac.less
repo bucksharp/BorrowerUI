@@ -15,6 +15,8 @@
 @deepslate: #373942;
 @lightslate:#7f8c8d;
 @brightblue:#3f9bd7;
+@salmon: #ff6f6e;
+@salmondark: #d85e5d;
 @type: #444;
 @block-bg: #fbfbfb;
 @brightbluehover:darken(@brightblue, 10%);
@@ -232,6 +234,9 @@ h4.bank-name-error {
 
 .table-ac {
 	background-color: #fff;
+	small {
+		padding-top:0px;
+	}
 	.basic-shadow
 }
 
@@ -1095,6 +1100,7 @@ h4.bank-name {
 
 .white-header {
 	padding:7px 0 6px 0;
+	text-align: center;
 	img {
         padding-bottom: 12px;
         padding-top: 16px;
@@ -1104,7 +1110,8 @@ h4.bank-name {
 		}
 	}
 	@media all and (min-width: @screen-sm) {
-		padding: 18px 0 20px 15px; 
+		padding: 18px 0 20px 15px;
+		text-align: center;
 	}
 }
 
@@ -1772,20 +1779,20 @@ label.switch-light.switch-candy {
   	font-size: 18px;
   	font-weight: 400;
   	text-align: center;
-  	box-shadow: 0px 5px 0px #3187C0;
-   	background-color: @brightblue;
-    border-color: @brightblue;
-    transition: background-color 0.8s ease;
+  	box-shadow: 0px 5px 0px @salmondark;
+   	background-color: @salmon;
+    border-color: @salmon;
+    transition: all 0.8s ease;
     &:hover {
-      	background-color: #3187C0;
-      	border-color:#3187C0;
+      	background-color: @salmondark;
+      	border-color:@salmondark;
       	color:#fff;
     }
     &:focus {
-    	background-color: #3187C0;
+    	background-color: @salmondark;
     }
     &:active {
-    	background-color: #3187C0;
+    	background-color: @salmondark;
     }
     @media (min-width: @screen-md) {
 		padding: 22px 56px 12px 56px;
@@ -2018,8 +2025,12 @@ footer {
 }
 
 .form-group {
-	label.tiny-caps {
-		display: none;
+	label {
+		font-size:14px;
+		font-weight: 500;
+		padding-bottom:6px;
+		padding-top:5px;
+		color:#666;
 	}
 }
 
