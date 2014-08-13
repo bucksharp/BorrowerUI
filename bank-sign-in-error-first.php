@@ -39,12 +39,12 @@
 					<div class="row">
 						<div class="col-md-6"><p><strong>If you're sure</strong> this is your bank and believe you have just made a typo while entering your connection details you can try again one more time.</p>
 						
-						<a href="multiple-fi-sign-in-error.php" type="submit" class="btn btn-primary btn-hybrid" style="margin-bottom:20px;">Try Again  &nbsp;<i class="fa fa-caret-right"></i></a>
+						<a href="multiple-fi-sign-in-error.php" type="submit" class="btn btn-hybrid" style="margin-bottom:20px;">Try Again  &nbsp;<i class="fa fa-caret-right"></i></a>
 						
 						</div>
 						<div class="col-md-6"><p><strong>If you're unsure</strong> the correct bank has been selected we recommend you continue by enrolling accounts from another bank.</p>
 						
-						<a href="#" type="submit" class="btn btn-primary btn-hybrid">New Bank  &nbsp;<i class="fa fa-caret-right"></i></a>
+						<a href="#" type="submit" class="btn btn-hybrid">New Bank  &nbsp;<i class="fa fa-caret-right"></i></a>
 						
 						</div>
 					</div>

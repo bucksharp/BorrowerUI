@@ -30,7 +30,7 @@
 	<div class="col-md-12">
 		<div class="container">
 			
-			<h3><i class="fa fa-search"></i> Search Results</h3>
+			<h3>Search Results</h3>
 			
 			<p class="process-type">There are multiple matches for <strong><em>"Simple"</em></strong>.</p>
 			

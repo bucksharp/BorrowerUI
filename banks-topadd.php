@@ -30,7 +30,7 @@
 		<div class="col-sm-12">
 			<div class="row">
 				<div class="col-sm-9">
-				<h3><i class="fa fa-university"></i> Your Banks</h3>
+				<h3>Your Banks</h3>
 				<p class="process-type">The following banks have been added.</div>
 				<div class="col-sm-3">
 					

@@ -676,7 +676,7 @@ h3 {
   font-weight: 300;
   margin-top: 24px;
   margin-left: 0px;
-  color: #34495e;
+  color: #444444;
 }
 @media all and (min-width: 768px) {
   h3 {
@@ -1629,8 +1629,8 @@ th.xpadding-left-10 {
   }
 }
 .ac-alert-warning {
-  color: #5e5013;
-  background-color: #ffeda7;
+  color: white;
+  background-color: #bbc2c5;
   border-radius: 0;
   border: none;
   text-align: center;
@@ -1639,7 +1639,7 @@ th.xpadding-left-10 {
   display: none;
 }
 .ac-alert-warning i {
-  color: #5e5013;
+  color: white;
   padding-right: 10px;
 }
 @media all and (min-width: 992px) {
@@ -1673,7 +1673,7 @@ th.xpadding-left-10 {
 }
 .ac-alert-error {
   color: white;
-  background-color: #cc0000;
+  background-color: #bbc2c5;
   border-radius: 0;
   border: none;
   text-align: center;
@@ -1691,6 +1691,7 @@ th.xpadding-left-10 {
     margin-bottom: 22px;
     padding-right: 4em;
     padding-left: 4em;
+    padding-top: 12px;
     margin-top: 0;
   }
 }
@@ -1828,14 +1829,14 @@ label.switch-light.switch-candy {
   color: #fff;
   border-radius: 0;
   font-weight: 400;
-  box-shadow: 0px 5px 0px #3187C0;
-  background-color: #3f9bd7;
-  border-color: #3f9bd7;
-  transition: background-color 0.8s ease;
+  box-shadow: 0px 5px 0px #d85e5d;
+  background-color: #ff6f6e;
+  border-color: #ff6f6e;
+  transition: all 0.8s ease;
 }
 .btn-find-bank:hover {
-  background-color: #2781bc;
-  border-color: #2781bc;
+  background-color: #d85e5d;
+  border-color: #d85e5d;
   color: #fff;
 }
 @media (min-width: 992px) {

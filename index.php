@@ -30,7 +30,7 @@
 <div class="row">
 	<div class="col-md-12">
 			
-			<h3><i class="fa fa-files-o"></i> Views</h3>
+			<h3>Views</h3>
       <p class="process-type"></p>
 						
 			<div class="list-group">

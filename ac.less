@@ -694,7 +694,7 @@ h3 {
 	font-weight: 300;
 	margin-top: 24px;
 	margin-left: 0px;
-	color:@slateblue;
+	color:@mainheadings;
 	@media all and (min-width: @screen-sm) {
 		font-size: 30px;
     	margin-top: 40px;
@@ -1640,8 +1640,8 @@ th.xpadding-left-10 {
 }
 
 .ac-alert-warning {
-	color: #5e5013;
-    background-color: #ffeda7;
+	color:white;
+    background-color: @accent;
     border-radius: 0;
     border: none;
     text-align: center;
@@ -1649,7 +1649,7 @@ th.xpadding-left-10 {
     font-size:14px;
     display:none;
 	i {
-		color:#5e5013;
+		color:white;
 		padding-right:10px;
 	}
 	@media all and (min-width: @screen-md) {
@@ -1682,7 +1682,7 @@ th.xpadding-left-10 {
 
 .ac-alert-error {
 	color: white;
-    background-color: @acerror;
+    background-color: @accent;
     border-radius: 0;
     border: none;
     text-align: center;
@@ -1698,6 +1698,7 @@ th.xpadding-left-10 {
 		margin-bottom:22px;
 		padding-right:4em;
 		padding-left:4em;
+		padding-top: 12px;
 		margin-top:0;
 	}
 }
@@ -1837,13 +1838,13 @@ label.switch-light.switch-candy {
 	color: #fff;
 	border-radius: 0;
 	font-weight:400;
-	box-shadow: 0px 5px 0px #3187C0;
-   	background-color: @brightblue;
-    border-color: @brightblue;
-    transition: background-color 0.8s ease;
+	box-shadow: 0px 5px 0px @salmondark;
+   	background-color: @salmon;
+    border-color: @salmon;
+    transition: all 0.8s ease;
     &:hover {
-      	background-color: @brightbluehover;
-      	border-color:@brightbluehover;
+      	background-color: @salmondark;
+      	border-color:@salmondark;
       	color:#fff;
     }
     @media (min-width: @screen-md) {

@@ -39,7 +39,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-			<h3><i class="fa fa-university"></i> Bank of America</h3>
+			<h3>Bank of America</h3>
 			<p class="process-type"><i class="fa fa-check-circle icon-text-success"></i> <strong>3 of 5</strong> accounts have been shared. <a href="#">Share more <i class="fa fa-arrow-right"></i></a></p>
 							
 			<div class="panel panel-default panel-ac">

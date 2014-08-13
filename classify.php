@@ -35,7 +35,7 @@
 		<div class="col-md-12">
 		
 			
-		<h3><i class="fa fa-folder-open"></i> Classify Shared Accounts</h3>
+		<h3>Classify Shared Accounts</h3>
 
 
 		<div class="panel panel-default panel-ac">

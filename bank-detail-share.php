@@ -39,7 +39,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-			<h3><i class="fa fa-university"></i> Bank of America</h3>
+			<h3>Bank of America</h3>
 			<p class="process-type">A list of accounts at your bank.</p>
 							
 			<div class="panel panel-default panel-ac">
