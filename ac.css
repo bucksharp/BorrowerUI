@@ -1,4 +1,5 @@
-/* Rebrand Styles */
+/* Rebrand Colors */
+/* Alerts */
 html {
   height: 100%;
 }
@@ -83,12 +84,13 @@ a {
   color: #373942;
 }
 .navbar-default .navbar-nav > li > a i {
-  color: #bbc2c5;
+  color: #888888;
 }
 @media all and (min-width: 768px) {
   .navbar-default .navbar-nav > li > a {
     padding: 39px 26px 37px 26px;
-    transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+            transition: background-color 0.5s ease;
   }
   .navbar-default .navbar-nav > li > a:hover {
     background-color: #3f9bd7;
@@ -145,7 +147,7 @@ h4.bank-name-error span {
 .navbar {
   padding: 0;
   background-color: white;
-  border-bottom: 5px solid #bbc2c5;
+  border-bottom: 5px solid #888888;
 }
 @media all and (min-width: 768px) {
   .navbar {
@@ -155,7 +157,8 @@ h4.bank-name-error span {
 @media all and (min-width: 992px) {
   .navbar-nav > li > .dropdown-menu {
     margin-top: 0px;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     padding: 10px;
     border-radius: 0px;
     background-color: #eee;
@@ -174,7 +177,8 @@ h4.bank-name-error span {
 .navbar-nav > li > a i {
   color: #2781bc;
   margin-right: 3px;
-  transition: background-color 0.5s ease;
+  -webkit-transition: background-color 0.5s ease;
+          transition: background-color 0.5s ease;
 }
 .dropdown-menu > li > a {
   color: #fff;
@@ -219,7 +223,8 @@ h4.bank-name-error span {
 	margin-right: 20px;
 } */
 .basic-shadow {
-  box-shadow: 0px 1px 0px #efefef;
+  -webkit-box-shadow: 0px 1px 0px #efefef;
+          box-shadow: 0px 1px 0px #efefef;
 }
 .tiny-caps-type {
   text-transform: uppercase;
@@ -228,7 +233,8 @@ h4.bank-name-error span {
 }
 .table-ac {
   background-color: #fff;
-  box-shadow: 0px 1px 0px #efefef;
+  -webkit-box-shadow: 0px 1px 0px #efefef;
+          box-shadow: 0px 1px 0px #efefef;
 }
 .table-ac small {
   padding-top: 0px;
@@ -303,7 +309,8 @@ h4.bank-name-error span {
     margin: 0;
     font-size: 16px;
     background-color: #3f9bd7;
-    transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+            transition: background-color 0.5s ease;
     width: 25%;
     max-width: 300px;
     font-weight: 400;
@@ -341,7 +348,8 @@ h4.bank-name-error span {
 }
 .panel {
   margin-top: 0;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   background-color: transparent;
 }
 .panel-default > .panel-heading {
@@ -486,7 +494,8 @@ h4.service {
 }
 .service-block a {
   color: #34495e;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
 }
 .service-block a:hover {
   color: #2781bc;
@@ -581,7 +590,8 @@ ul.top-10-banks li:last-child {
 .panel-signin {
   background-color: #f0f0f1;
   border: none;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 @media all and (min-width: 768px) {
   .panel-signin {
@@ -887,7 +897,8 @@ h4.bank-name {
     width: 30%;
   }
   .btn-sm:active {
-    box-shadow: 0;
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
   }
 }
 .btn-sm {
@@ -909,7 +920,8 @@ h4.bank-name {
     width: 30%;
   }
   .btn-sm:active {
-    box-shadow: 0;
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
   }
 }
 .btn.btn-add-new-bank {
@@ -923,7 +935,8 @@ h4.bank-name {
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 8px 10px;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
   margin-top: 10px;
   margin-bottom: 14px;
 }
@@ -942,7 +955,8 @@ h4.bank-name {
     font-size: 11px;
   }
   .btn.btn-add-new-bank:active {
-    box-shadow: 0;
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
   }
 }
 .btn.btn-add-new-bank-dual {
@@ -956,7 +970,8 @@ h4.bank-name {
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 8px 10px;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
   margin-top: 10px;
   margin-bottom: 14px;
   display: none;
@@ -977,7 +992,8 @@ h4.bank-name {
     display: block;
   }
   .btn.btn-add-new-bank-dual:active {
-    box-shadow: 0;
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
   }
 }
 .btn.btn-add-new-bank-bot {
@@ -991,7 +1007,8 @@ h4.bank-name {
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 12px 12px;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
   margin-top: 10px;
   margin-bottom: 14px;
 }
@@ -1011,7 +1028,8 @@ h4.bank-name {
     margin-top: -10px;
   }
   .btn.btn-add-new-bank-bot:active {
-    box-shadow: 0;
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
   }
 }
 .btn.btn-add-new-bank-dual-bot {
@@ -1025,7 +1043,8 @@ h4.bank-name {
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 12px 12px;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
   margin-top: 10px;
   margin-bottom: 14px;
 }
@@ -1046,7 +1065,8 @@ h4.bank-name {
     display: none;
   }
   .btn.btn-add-new-bank-dual-bot:active {
-    box-shadow: 0;
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
   }
 }
 .panel-footer-ac {
@@ -1220,14 +1240,16 @@ h4.bank-name {
   width: 50%;
   margin-top: 6px;
   padding: 10px 26px 12px 26px;
-  transition: background-color 0.5s ease;
+  -webkit-transition: background-color 0.5s ease;
+          transition: background-color 0.5s ease;
 }
 .btn-grey:hover {
   background-color: #2e7d00;
   border-color: #2e7d00;
 }
 .btn.disabled {
-  box-shadow: 0px 5px 0px #3f9bd7;
+  -webkit-box-shadow: 0px 5px 0px #3f9bd7;
+          box-shadow: 0px 5px 0px #3f9bd7;
 }
 .table-responsive {
   margin-bottom: 0;
@@ -1433,9 +1455,6 @@ progress {
   width: 128px;
   height: 128px;
   border: 11px solid #f1f1f2;
-  -moz-border-radius: 128px;
-  -webkit-border-radius: 128px;
-  -ms-border-radius: 128px;
   -o-border-radius: 128px;
   border-radius: 128px;
 }
@@ -1461,10 +1480,14 @@ progress {
   -o-animation-duration: 1.5s;
   -o-animation-iteration-count: infinite;
   -o-animation-timing-function: linear;
-  animation-name: ball_moveG;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  -webkit-animation-name: ball_moveG;
+          animation-name: ball_moveG;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
 }
 .ballG {
   position: absolute;
@@ -1473,19 +1496,8 @@ progress {
   width: 51px;
   height: 51px;
   background: #3f9bd7;
-  -moz-border-radius: 43px;
-  -webkit-border-radius: 43px;
-  -ms-border-radius: 43px;
   -o-border-radius: 43px;
   border-radius: 43px;
-}
-@-moz-keyframes ball_moveG {
-  0% {
-    -moz-transform: rotate(360deg);
-  }
-  100% {
-    -moz-transform: rotate(0deg);
-  }
 }
 @-webkit-keyframes ball_moveG {
   0% {
@@ -1503,20 +1515,14 @@ progress {
     -ms-transform: rotate(0deg);
   }
 }
-@-o-keyframes ball_moveG {
-  0% {
-    -o-transform: rotate(360deg);
-  }
-  100% {
-    -o-transform: rotate(0deg);
-  }
-}
 @keyframes ball_moveG {
   0% {
-    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
   100% {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 .loading-header {
@@ -1613,7 +1619,7 @@ th.xpadding-left-10 {
 }
 .ac-alert-success {
   color: #fff;
-  background-color: #bbc2c5;
+  background-color: #888888;
   border-radius: 0;
   border: none;
   text-align: center;
@@ -1634,7 +1640,7 @@ th.xpadding-left-10 {
 }
 .ac-alert-warning {
   color: white;
-  background-color: #bbc2c5;
+  background-color: #888888;
   border-radius: 0;
   border: none;
   text-align: center;
@@ -1677,7 +1683,7 @@ th.xpadding-left-10 {
 }
 .ac-alert-error {
   color: white;
-  background-color: #bbc2c5;
+  background-color: #888888;
   border-radius: 0;
   border: none;
   text-align: center;
@@ -1786,10 +1792,12 @@ label.switch-light.switch-candy {
   font-size: 18px;
   font-weight: 400;
   text-align: center;
-  box-shadow: 0px 5px 0px #d85e5d;
+  -webkit-box-shadow: 0px 5px 0px #d85e5d;
+          box-shadow: 0px 5px 0px #d85e5d;
   background-color: #ff6f6e;
   border-color: #ff6f6e;
-  transition: background-color 0.8s ease;
+  -webkit-transition: background-color 0.8s ease;
+          transition: background-color 0.8s ease;
 }
 .btn-hybrid:hover {
   background-color: #d85e5d;
@@ -1817,8 +1825,10 @@ label.switch-light.switch-candy {
   margin-top: 20px;
   background-color: #efefef;
   border-color: #efefef;
-  transition: all 0.8s ease;
-  box-shadow: 0px 5px 0px #ccc;
+  -webkit-transition: all 0.8s ease;
+          transition: all 0.8s ease;
+  -webkit-box-shadow: 0px 5px 0px #ccc;
+          box-shadow: 0px 5px 0px #ccc;
   color: #222;
 }
 .btn-secondary:hover {
@@ -1839,10 +1849,12 @@ label.switch-light.switch-candy {
   color: #fff;
   border-radius: 0;
   font-weight: 400;
-  box-shadow: 0px 5px 0px #d85e5d;
+  -webkit-box-shadow: 0px 5px 0px #d85e5d;
+          box-shadow: 0px 5px 0px #d85e5d;
   background-color: #ff6f6e;
   border-color: #ff6f6e;
-  transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease;
+          transition: all 0.8s ease;
 }
 .btn-find-bank:hover {
   background-color: #d85e5d;
@@ -1864,11 +1876,13 @@ label.switch-light.switch-candy {
   color: #fff;
   background-color: #ff6f6e;
   border-color: #ff6f6e;
-  transition: background-color 0.8s ease;
+  -webkit-transition: background-color 0.8s ease;
+          transition: background-color 0.8s ease;
   height: 65px;
   border-radius: 0px;
   padding-top: 22px;
-  box-shadow: 0px 5px 0px #d85e5d;
+  -webkit-box-shadow: 0px 5px 0px #d85e5d;
+          box-shadow: 0px 5px 0px #d85e5d;
 }
 .btn-authorize:hover {
   background-color: #d85e5d;
@@ -1969,7 +1983,8 @@ footer .copyright {
   .form-control {
     border-radius: none;
     border-radius: 0;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   .notification {
     font-size: 15px;
@@ -2002,7 +2017,8 @@ footer .copyright {
   height: 65px;
   color: #333;
   border: 1px solid #ccc;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   font-weight: 400;
   font-size: 18px;
   padding: 6px 20px;
@@ -2021,7 +2037,8 @@ footer .copyright {
   width: 100%;
   font-size: 18px;
   color: #333;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   -webkit-appearance: none;
 }
 @media all and (min-width: 768px) {
@@ -2050,8 +2067,7 @@ footer .copyright {
   border: none;
   border-right: none;
   background: -webkit-linear-gradient(#d0d0d0, #f4f4f4);
-  background: -o-linear-gradient(#d0d0d0, #f4f4f4);
-  background: -moz-linear-gradient(#d0d0d0, #f4f4f4);
+  background: -webkit-gradient(linear, left top, left bottom, from(#d0d0d0), to(#f4f4f4));
   background: linear-gradient(#d0d0d0, #f4f4f4);
 }
 .input-group-addon .fa {
@@ -2142,7 +2158,8 @@ td.share-cell {
 .form-control {
   border-radius: 0;
   margin-bottom: 14px;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .checkbox {
   -webkit-appearance: none;
@@ -2166,7 +2183,8 @@ td.share-cell {
 }
 .btn:active {
   top: 6px;
-  box-shadow: 0px 5px 0px #3187C0;
+  -webkit-box-shadow: 0px 5px 0px #3187C0;
+          box-shadow: 0px 5px 0px #3187C0;
 }
 .back-btn-container {
   margin-top: 20px;
@@ -2177,7 +2195,8 @@ td.share-cell {
   }
 }
 .back-btn-container .btn:active {
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .spinner {
   margin: 100px auto 36px;

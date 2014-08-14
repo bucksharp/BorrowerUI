@@ -34,7 +34,7 @@
 			
 				<div class="col-md-10 col-md-offset-1 bank-error">
 
-						<h4 class="bank-name-error"><i class="fa fa-university"></i> Bank of America <span><a href="http://bankofamerica.com" target="_main">Visit site <i class="fa fa-external-link"></i></a></span></h4>
+						<h4 class="bank-name-error">Bank of America <span><a href="http://bankofamerica.com" target="_main">Visit site <i class="fa fa-external-link"></i></a></span></h4>
 									
 					<div class="row">
 						<div class="col-md-6"><p><strong>If you're sure</strong> this is your bank and believe you have just made a typo while entering your connection details you can try again one more time.</p>
