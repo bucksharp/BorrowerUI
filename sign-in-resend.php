@@ -28,7 +28,7 @@
   </head>
   <body class="signedout-signin-resend">
 <div class="alert alert-success ac-alert-success alert-dismissable">
-	<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> <i class="fa fa-check-circle"></i> <i class="fa fa-check-circle"></i> Success! We've resent your personal access code to the email provided. 
+	<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><i class="fa fa-check-circle"></i> Success! We've resent your personal access code to the email provided. 
 </div>
 <div class="container">
    	<form role="form" class="form-signin">
