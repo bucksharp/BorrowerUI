@@ -754,8 +754,6 @@
 				$(this).addClass("disabled");
 				$(".btn-hybrid i").addClass("fa-circle-o-notch fa-spin");
 				$(".btn-hybrid span").text("Signing In...");
-			});
-			$(function() {
 				$('input, textarea').placeholder();
 			});
 		});
